@@ -61,13 +61,13 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB     |  !  |  @  |  #  |  $  |  %  |     |  ^  |  &  |  *  |  (  |  )  | DEL |
-// | CTRL,ESC |  -  |  =  |  [  |  ]  |  \  |     |  `  |     |     |     |     |     |
-// | SHFT     |  _  |  +  |  {  |  }  | "|" |     |  ~  |     |     |     |     |     |
+// | CTRL,ESC |  _  |  +  |  {  |  }  | "|" |     |  ~  |     |     |     |     |     |
+// | SHFT     |  -  |  =  |  [  |  ]  |  \  |     |  `  |     |     |     |     |     |
 //                  | GUI |     | ENT |     | SPC |     | ALT |
                         bindings = <
    &kp  TAB    &kp EXCL  &kp AT    &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &trans
-   &trans      &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH    &kp GRAVE &trans    &trans          &trans   &trans   &trans
-   &kp LSHFT   &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp PIPE    &kp TILDE &trans    &trans          &trans   &trans   &trans
+   &trans      &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp PIPE    &kp TILDE &trans    &trans          &trans   &trans   &trans
+   &kp LSHFT   &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH    &kp GRAVE &trans    &trans          &trans   &trans   &trans
                     	           &kp LGUI &trans   &kp RET     &kp SPACE &trans    &kp RALT
                         >;
                 };
