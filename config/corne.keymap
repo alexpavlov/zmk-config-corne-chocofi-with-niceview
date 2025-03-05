@@ -16,6 +16,86 @@
                         key-positions = <36 41>;
                         bindings = <&mo 3>;
                 };
+                combo_rsft {
+                        timeout-ms = <50>;
+                        key-positions = <7 19>;
+                        bindings = <&kp RSHFT>;
+                };
+                combo_lsft {
+                        timeout-ms = <50>;
+                        key-positions = <4 16>;
+                        bindings = <&kp LSHFT>;
+                };
+                combo_rgui {
+                        timeout-ms = <50>;
+                        key-positions = <8 20>;
+                        bindings = <&kp RGUI>;
+                };
+                combo_lgui {
+                        timeout-ms = <50>;
+                        key-positions = <3 15>;
+                        bindings = <&kp LGUI>;
+                };
+                combo_ralt {
+                        timeout-ms = <50>;
+                        key-positions = <9 21>;
+                        bindings = <&kp RALT>;
+                };
+                combo_lalt {
+                        timeout-ms = <50>;
+                        key-positions = <2 14>;
+                        bindings = <&kp LALT>;
+                };
+                combo_rctrl {
+                        timeout-ms = <50>;
+                        key-positions = <10 22>;
+                        bindings = <&kp RCTRL>;
+                };
+                combo_lctrl {
+                        timeout-ms = <50>;
+                        key-positions = <1 13>;
+                        bindings = <&kp LCTRL>;
+                };
+                combo_plus {
+                        timeout-ms = <50>;
+                        key-positions = <6 18>;
+                        bindings = <&kp PLUS>;
+                };
+                combo_equal {
+                        timeout-ms = <50>;
+                        key-positions = <18 30>;
+                        bindings = <&kp EQUAL>;
+                };
+                combo_under {
+                        timeout-ms = <50>;
+                        key-positions = <5 17>;
+                        bindings = <&kp UNDER>;
+                };
+                combo_minus {
+                        timeout-ms = <50>;
+                        key-positions = <17 29>;
+                        bindings = <&kp MINUS>;
+                };
+                combo_grave {
+                        timeout-ms = <50>;
+                        key-positions = <16 28>;
+                        bindings = <&kp GRAVE>;
+                };
+                combo_pipe {
+                        timeout-ms = <50>;
+                        key-positions = <15 27>;
+                        bindings = <&kp PIPE>;
+                };
+                combo_tilde {
+                        timeout-ms = <50>;
+                        key-positions = <19 31>;
+                        bindings = <&kp TILDE>;
+                };
+                combo_backslash {
+                        timeout-ms = <50>;
+                        key-positions = <20 32>;
+                        bindings = <&kp BSLH>;
+                };
         };
 
         keymap {
