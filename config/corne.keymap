@@ -117,13 +117,13 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7   |  8      |  9    |  0  | DEL |
-// |      |     |     |  {  |  }  | LFT |   | CAPS| LFT  | DWN     |  UP   | RGT |     |
-// | SHFT |     |     |  [  |  ]  | LFT |   |     | HOME | PG_DN   | PG_UP | END |     |
+// |      |     |     |  {  |  }  | LFT |   | CAPS| LFT  | UP      |  RGT  |     |     |
+// | SHFT |     |     |  [  |  ]  | LFT |   |     | ALT-L| DWN     | ALT-R |     |     |
 //                    |     |     | ENT |   | SPC |      | CMD+GRV |
                         bindings = <
-   &kp TAB  &kp N1       &kp N2   &kp N3    &kp N4    &kp N5    &kp N6   &kp N7    &kp N8    &kp N9     &kp N0 &kp DELETE
-   &trans   &trans       &trans   &kp LBRC  &kp RBRC  &kp LEFT  &kp CAPS &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT &trans
-   &trans   &trans       &trans   &kp LBKT  &kp RBKT  &kp LEFT  &trans   &kp HOME  &kp PG_DN &kp PG_UP  &kp END &trans
+   &kp TAB  &kp N1       &kp N2   &kp N3    &kp N4    &kp N5    &kp N6   &kp N7        &kp N8    &kp N9         &kp N0  &kp DELETE
+   &trans   &trans       &trans   &kp LBRC  &kp RBRC  &kp LEFT  &kp CAPS &kp LEFT      &kp UP    &kp RIGHT      &trans  &trans
+   &trans   &trans       &trans   &kp LBKT  &kp RBKT  &kp LEFT  &trans   &kp RA(LEFT)  &kp DOWN  &kp RA(RIGHT)  &trans  &trans
                          &trans   &trans    &kp RET   &kp SPACE &trans   &kp RG(GRAVE)
                         >;
                 };
