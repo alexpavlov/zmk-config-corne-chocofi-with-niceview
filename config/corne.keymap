@@ -106,25 +106,25 @@
 // | TAB      |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U   |  I  |  O  |  P  | BKSP   |
 // | CTRL,ESC |  A  |  S  |  D  |  F  |  G  |     |  H  |  J   |  K  |  L  |  ;  |  '     |
 // | SHFT,(   |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M   |  ,  |  .  |  /  | SHFT,) |
-//                  | LWR | GUI | ENT |     | SPC | ALT | RSE  | 
+//                  | OPT | GUI | ENT |     | SPC | LWR | RSE  | 
                         bindings = <
    &kp TAB        &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BACKSPACE
    &mt LCTRL ESC  &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &mt LSHFT LPAR &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mt RSHFT RPAR
-                        &mo 1 &kp LGUI  &kp RET   &kp SPACE &kp RALT &mo 2
+                        &kp RALT &kp LGUI  &kp RET   &kp SPACE &mo 1 &mo 2
                         >;
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7   |  8      |  9    |  0  | DEL |
-// |      |     |     |  {  |  }  | LFT |   | CAPS| LFT  | UP      |  RGT  |     |     |
-// | SHFT |     |     |  [  |  ]  | LFT |   |     | ALT-L| DWN     | ALT-R |     |     |
+// |      |  _  |  +  |  {  |  }  | "|" |   |  ~  |   | CAPS| LFT  | UP      |  RGT  |     |     |
+// | SHFT |  -  |  =  |  [  |  ]  |  \  |   |  `  | ALT-L| DWN     | ALT-R |     |     |
 //                    |     |     | ENT |   | SPC |      | CMD+GRV |
                         bindings = <
-   &kp TAB  &kp N1       &kp N2   &kp N3    &kp N4    &kp N5    &kp N6   &kp N7        &kp N8    &kp N9         &kp N0  &kp DELETE
-   &trans   &trans       &trans   &kp LBRC  &kp RBRC  &kp LEFT  &kp CAPS &kp LEFT      &kp UP    &kp RIGHT      &trans  &trans
-   &trans   &trans       &trans   &kp LBKT  &kp RBKT  &kp LEFT  &trans   &kp RA(LEFT)  &kp DOWN  &kp RA(RIGHT)  &trans  &trans
-                         &trans   &trans    &kp RET   &kp SPACE &trans   &kp RG(GRAVE)
+   &kp TAB  &kp N1     &kp N2    &kp N3     &kp N4    &kp N5    &kp N6    &kp N7        &kp N8    &kp N9         &kp N0  &kp DELETE
+   &trans   &kp UNDER  &kp PLUS  &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE &kp LEFT      &kp UP    &kp RIGHT      &trans  &trans
+   &trans   &kp MINUS  &kp EQUAL &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE &trans   &kp RA(LEFT)  &kp DOWN  &kp RA(RIGHT)  &trans  &kp CAPS
+                         &trans   &trans    &kp RET   &kp SPACE &trans    &kp RG(GRAVE)
                         >;
                 };
 
