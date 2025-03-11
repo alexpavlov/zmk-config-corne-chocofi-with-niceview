@@ -123,7 +123,7 @@
                         bindings = <
    &kp TAB  &kp N1     &kp N2    &kp N3     &kp N4    &kp N5    &kp N6    &kp N7        &kp N8    &kp N9         &kp N0  &kp DELETE
    &trans   &kp UNDER  &kp PLUS  &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE &kp LEFT      &kp UP    &kp RIGHT      &trans  &trans
-   &trans   &kp MINUS  &kp EQUAL &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE &trans   &kp RA(LEFT)  &kp DOWN  &kp RA(RIGHT)  &trans  &kp CAPS
+   &trans   &kp MINUS  &kp EQUAL &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE &kp RA(LEFT)  &kp DOWN  &kp RA(RIGHT)  &trans  &kp CAPS
                          &trans   &trans    &kp RET   &kp SPACE &trans    &kp RG(GRAVE)
                         >;
                 };
